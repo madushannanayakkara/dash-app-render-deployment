@@ -39,6 +39,9 @@ logreg_model.fit(X_train, y_train)
 app = dash.Dash(__name__)
 server = app.server
 
+# Add some style to the dashboard
+app.css.append_css({'external_url': 'styles.css'})
+
 # Define the layout of the dashboard
 app.layout = html.Div(
     children=[
