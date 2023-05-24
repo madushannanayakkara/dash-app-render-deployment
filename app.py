@@ -78,24 +78,22 @@ app.layout = html.Div(
         dcc.Input(id='volatile_acidity', type='number', required=True), 
         html.Label("Citric Acid"),
         dcc.Input(id='citric_acid', type='number', required=True),
-        html.Br(),
-        
         html.Label("Residual Sugar"),
         dcc.Input(id='residual_sugar', type='number', required=True),  
+        html.Br(),
+        
         html.Label("Chlorides"),
         dcc.Input(id='chlorides', type='number', required=True), 
         html.Label("Free Sulfur Dioxide"),
         dcc.Input(id='free_sulfur_dioxide', type='number', required=True),
-        html.Br(),
-        
         html.Label("Total Sulfur Dioxide"),
         dcc.Input(id='total_sulfur_dioxide', type='number', required=True),
         html.Label("Density"),
         dcc.Input(id='density', type='number', required=True),
-        html.Label("pH"),
-        dcc.Input(id='ph', type='number', required=True),
         html.Br(),
         
+        html.Label("pH"),
+        dcc.Input(id='ph', type='number', required=True),
         html.Label("Sulphates"),
         dcc.Input(id='sulphates', type='number', required=True),
         html.Label("Alcohol"),
